@@ -15,57 +15,57 @@ class User {
 // YOU - current user
 final User currentUser = User(
   id: 0,
-  name: 'Nick Fury',
-  imageUrl: 'assets/images/nick-fury.jpg',
+  name: 'Shyam Lal',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: true,
 );
 
 // USERS
-final User ironMan = User(
+final User kisansangathan = User(
   id: 1,
-  name: 'Iron Man',
-  imageUrl: 'assets/images/ironman.jpeg',
+  name: 'Kisan Sangathan',
+  imageUrl: 'assets/images/farmer.png',
   isOnline: true,
 );
-final User captainAmerica = User(
+final User ramprasad = User(
   id: 2,
-  name: 'Captain America',
-  imageUrl: 'assets/images/captain-america.jpg',
+  name: 'Ramprasad',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: true,
 );
-final User hulk = User(
+final User ghanshyam = User(
   id: 3,
-  name: 'Hulk',
-  imageUrl: 'assets/images/hulk.jpg',
+  name: 'Ghanshyam',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: false,
 );
-final User scarletWitch = User(
+final User siyaram = User(
   id: 4,
-  name: 'Scarlet Witch',
-  imageUrl: 'assets/images/scarlet-witch.jpg',
+  name: 'SiyaRam',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: false,
 );
-final User spiderMan = User(
+final User deviprasad = User(
   id: 5,
-  name: 'Spider Man',
-  imageUrl: 'assets/images/spiderman.jpg',
+  name: 'Devi Prasad',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: true,
 );
-final User blackWindow = User(
+final User maheshdairy = User(
   id: 6,
-  name: 'Black Widow',
-  imageUrl: 'assets/images/black-widow.jpg',
+  name: 'Mahesh Dairy',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: false,
 );
-final User thor = User(
+final User ramesh = User(
   id: 7,
-  name: 'Thor',
-  imageUrl: 'assets/images/thor.png',
+  name: 'Ramesh',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: false,
 );
-final User captainMarvel = User(
+final User jayantilal = User(
   id: 8,
-  name: 'Captain Marvel',
-  imageUrl: 'assets/images/captain-marvel.jpg',
+  name: 'Jayanti Lal',
+  imageUrl: 'assets/images/icon.jpg',
   isOnline: false,
 );

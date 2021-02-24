@@ -9,14 +9,14 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         brightness: Brightness.dark,
-        elevation: 8,
+        elevation: 10,
         leading: IconButton(
           icon: Icon(Icons.menu),
           color: Colors.white,
           onPressed: () {},
         ),
         title: Text(
-          'Inbox',
+          'Connect With Others !!',
           style: TextStyle(
             color: Colors.white,
           ),
@@ -80,6 +80,7 @@ class HomeScreen extends StatelessWidget {
                     child: CircleAvatar(
                       radius: 35,
                       backgroundImage: AssetImage(chat.sender.imageUrl),
+                      backgroundColor: Colors.redAccent,
                     ),
                   ),
                   Container(

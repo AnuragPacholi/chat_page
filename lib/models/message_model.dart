@@ -2,7 +2,8 @@ import 'package:flutter_chat_app/models/user_model.dart';
 
 class Message {
   final User sender;
-  final String time; // Would usually be type DateTime or Firebase Timestamp in production apps
+  final String
+      time; // Would usually be type DateTime or Firebase Timestamp in production apps
   final String text;
   final bool unread;
 
@@ -17,51 +18,51 @@ class Message {
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
   Message(
-    sender: ironMan,
+    sender: kisansangathan,
     time: '5:30 PM',
-    text: 'Hey dude! Even dead I\'m the hero. Love you 3000 guys.',
+    text: 'Yeah sure, we will help you with fundings.',
     unread: true,
   ),
   Message(
-    sender: captainAmerica,
+    sender: ramprasad,
     time: '4:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Thank you for helping me out!',
     unread: true,
   ),
   Message(
-    sender: blackWindow,
+    sender: maheshdairy,
     time: '3:30 PM',
-    text: 'WOW! this soul world is amazing, but miss you guys.',
+    text: '5L milk will be delivered to you by tomorrow.',
     unread: false,
   ),
   Message(
-    sender: spiderMan,
+    sender: deviprasad,
     time: '2:30 PM',
-    text: 'I\'m exposed now. Please help me to hide my identity.',
+    text: 'How much profits did you made using this app?',
     unread: true,
   ),
   Message(
-    sender: hulk,
+    sender: ghanshyam,
     time: '1:30 PM',
-    text: 'HULK SMASH!!',
+    text: 'This is a great app. I nearly doubled my profits.',
     unread: false,
   ),
   Message(
-    sender: thor,
+    sender: ramesh,
     time: '12:30 PM',
-    text: 'I\'m hitting gym bro. I\'m immune to mortal deseases. Are you coming?',
+    text: 'Thanks for the financial support.',
     unread: false,
   ),
   Message(
-    sender: scarletWitch,
+    sender: siyaram,
     time: '11:30 AM',
-    text: 'My twins are giving me headache. Give me some time please.',
+    text: 'You\'ll reveive your products tomorrow.',
     unread: false,
   ),
   Message(
-    sender: captainMarvel,
+    sender: jayantilal,
     time: '12:45 AM',
-    text: 'You\'re always special to me nick! But you know my struggle.',
+    text: 'Hey, how\'s it going?',
     unread: false,
   ),
 ];
@@ -69,51 +70,54 @@ List<Message> chats = [
 // EXAMPLE MESSAGES IN CHAT SCREEN
 List<Message> messages = [
   Message(
-    sender: ironMan,
+    sender: kisansangathan,
     time: '5:30 PM',
-    text: 'Hey dude! Event dead I\'m the hero. Love you 3000 guys.',
+    text: 'Yeah sure, we will help you with fundings.',
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '4:30 PM',
-    text: 'We could surely handle this mess much easily if you were here.',
+    text:
+        'I need some fundings to buy some resources. Can you guys help me with that?',
     unread: true,
   ),
   Message(
-    sender: ironMan,
+    sender: kisansangathan,
     time: '3:45 PM',
-    text: 'Take care of peter. Give him all the protection & his aunt.',
+    text: 'Is there anything we can do to help you?',
     unread: true,
   ),
   Message(
-    sender: ironMan,
+    sender: kisansangathan,
     time: '3:15 PM',
-    text: 'I\'m always proud of her and blessed to have both of them.',
+    text: 'Woah that\'s a great news.',
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text: 'But that spider kid is having some difficulties due his identity reveal by a blog called daily bugle.',
+    text:
+        'I started getting orders even before the harvesting season. Isn\'t that great?',
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text: 'Pepper & Morgan is fine. They\'re strong as you. Morgan is a very brave girl, one day she\'ll make you proud.',
+    text:
+        'I\'m expecting greater profits for this season. Just because of this great app.',
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text: 'Yes Tony!',
+    text: 'They\'re very good.',
     unread: true,
   ),
   Message(
-    sender: ironMan,
+    sender: kisansangathan,
     time: '2:00 PM',
-    text: 'I hope my family is doing well.',
+    text: 'How\'s the condition of your crops?',
     unread: true,
   ),
 ];
